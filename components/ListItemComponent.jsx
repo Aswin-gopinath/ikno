@@ -81,7 +81,7 @@ export default function CardItem({ item }) {
                             </p>
                         </div>
                     </div>
-                    <div className="flex gap-2 hidden md:block">
+                    <div className="flex gap-2">
                         <div className="bg-[#12B28C] flex rounded-md items-center justify-center px-3 w-[127px] h-[47px]">
                             <Image src={Whatsapp} alt="whatsapp" width={20} height={20} className="w-[20px] h-[20px] rounded-md" />
                             <p className="font-bold text-white text-[12px] rounded-md ml-2 mb-1">WHATSAPP</p>
